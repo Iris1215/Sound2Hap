@@ -1,9 +1,10 @@
 # Sound2Hap
 
 
-Under Construction...
+# Under Construction...
 
-For running model inferences, please go to Encodec https://github.com/facebookresearch/encodec and clone it under Sound2Hap_Models folder. You should Add EnCodec clone to Python path by sys.path.insert(0, 'YOUR encodec PATH') when using inference.
+For running model inferences, please go to Encodec https://github.com/facebookresearch/encodec and clone it under Sound2Hap_Models folder. You should Add EnCodec clone to Python path by sys.path.insert(0, 'YOUR encodec PATH') when using inference.  
+[Update one file in Encodec to correct a bug: CHECK LATER]
 
 
 The four signal processing algorithms for audio-to-vibration are adapted from below:  
