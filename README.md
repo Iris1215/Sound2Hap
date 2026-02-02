@@ -4,7 +4,7 @@
 Under Construction...
 
 
-The four signal processing algorithms for audio-to-vibration are adapted from below: \\
+The four signal processing algorithms for audio-to-vibration are adapted from below: 
 
 - Frequench Shifting: @incollection{okazaki2015effect, title={The effect of frequency shifting on audio--tactile conversion for enriching musical experience}, author={Okazaki, Ryuta and Kuribayashi, Hidenori and Kajimoto, Hiroyuki}, booktitle={Haptic Interaction: Perception, Devices and Applications}, pages={45--51}, year={2015}, publisher={Springer} } \\
 
