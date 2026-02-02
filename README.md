@@ -3,6 +3,8 @@
 
 Under Construction...
 
+For running model inferences, please go to Encodec https://github.com/facebookresearch/encodec and clone it under your inferencing path
+
 
 The four signal processing algorithms for audio-to-vibration are adapted from below:  
 
