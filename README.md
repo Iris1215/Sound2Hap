@@ -20,4 +20,12 @@ The python version is used for Sound2Hap Web Tool's generation
 - HapticGen: @inproceedings{sung2025hapticgen, title={HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design}, author={Sung, Youjin and John, Kevin and Yoon, Sang Ho and Seifi, Hasti}, booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems}, pages={1--24}, year={2025}  
 
 
+If you find this work useful in an academic setting please cite:  
+```bibtex
+@article{li2026sound2hap,
+    title={Sound2Hap: Learning Audio-to-Vibrotactile Haptic Generation from Human Ratings},
+    author={Li, Yinan and Seifi, Hasti},
+    journal={arXiv preprint arXiv:2601.12245},
+    year={2026}
+}
 
