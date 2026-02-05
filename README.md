@@ -1,11 +1,7 @@
 # Sound2Hap
 
-
-# Under Construction...
-
 For running model inferences, please go to Encodec https://github.com/facebookresearch/encodec and clone it under Sound2Hap_Models folder. You should Add EnCodec clone to Python path by sys.path.insert(0, 'YOUR encodec PATH') when using inference.  
 [Update conv.py under encodec/encodec/modules/conv.py: from "from torch.nn.utils import spectral_norm, weight_norm" to "from torch.nn.utils.parametrizations import spectral_norm, weight_norm"]
-
 
 The four signal processing algorithms for audio-to-vibration are adapted from below:  
 
@@ -17,8 +13,10 @@ The four signal processing algorithms for audio-to-vibration are adapted from be
 The MATLAB implementation is used for actual study  
 The python version is used for Sound2Hap Web Tool's generation  
 
-- HapticGen: @inproceedings{sung2025hapticgen, title={HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design}, author={Sung, Youjin and John, Kevin and Yoon, Sang Ho and Seifi, Hasti}, booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems}, pages={1--24}, year={2025}  
+- HapticGen: @inproceedings{sung2025hapticgen, title={HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design}, author={Sung, Youjin and John, Kevin and Yoon, Sang Ho and Seifi, Hasti}, booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems}, pages={1--24}, year={2025}
 
+Our interactive web tool: https://sound2hap.netlify.app/  
+Our audio, vibration, human ratings training dataset: https://huggingface.co/datasets/yinanli1215/Sound2Hap  
 
 If you find this work useful in an academic setting please cite:  
 ```bibtex
