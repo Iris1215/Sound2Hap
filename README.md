@@ -1,4 +1,6 @@
-# Sound2Hap
+# Sound2Hap: Learning Audio-to-Vibrotactile Haptic Generation from Human Ratings
+
+To appear in CHI 2026
 
 For running model inferences, please go to Encodec https://github.com/facebookresearch/encodec and clone it under Sound2Hap_Models folder. You should Add EnCodec clone to Python path by sys.path.insert(0, 'YOUR encodec PATH') when using inference.  
 [Update conv.py under encodec/encodec/modules/conv.py: from "from torch.nn.utils import spectral_norm, weight_norm" to "from torch.nn.utils.parametrizations import spectral_norm, weight_norm"]
